@@ -1,0 +1,8 @@
+path: /workspace/yolov7/trafficsign_custom_dataset
+train: ./trafficsign_custom_dataset/train/images/
+val: ./trafficsign_custom_dataset/val/images/
+test: ./trafficsign_custom_dataset/test/images/
+
+nc: 6
+
+names: [ 'red traffic light', 'yellow traffic light', 'green traffic light', 'restriction traffic sign', 'caution traffic sign', 'instruction traffic sign' ]

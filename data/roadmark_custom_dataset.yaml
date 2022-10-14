@@ -1,0 +1,11 @@
+path: /workspace/yolov7/roadmark_custom_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 17
+
+names: ['No Right Turn', 'No left Turn', 'No Straight', 'No Left and Straight', 'No Right and Straight',
+        'No Left and Right', 'No Uturn', 'Speed Limit', 'Speed Limit(Children Zone)', 'Children Zone',
+        'Elderly Zone', 'Handicapped Zone', 'Cross Walk', 'Plateau Cross Walk', 'Bicycle Cross Walk',
+        'Slow Sign', 'Stop Sign']

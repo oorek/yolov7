@@ -1,0 +1,15 @@
+# 0 : person
+# 1 : bicycle
+# 2 : car
+# 3 : motorcycle
+# 5 : bus
+# 7 : truck
+
+path: /workspace/yolov7/coco_custom_dataset
+train: ./coco_custom_dataset/train/images/
+val: ./coco_custom_dataset/val/images/
+test: ./coco_custom_dataset/test/images/
+
+nc: 8
+
+names: [ 'person', 'bicycle', 'car', 'motorcycle', 'dummy1', 'bus', 'dummy2', 'truck']
